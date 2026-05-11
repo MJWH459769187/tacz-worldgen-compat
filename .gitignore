@@ -3,3 +3,5 @@ dist/
 *.tmp
 .github_deploy_key
 .github_deploy_key.pub
+!release/
+!release/**

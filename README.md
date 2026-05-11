@@ -58,7 +58,13 @@ dist/zz_tacz_worldgen_compat-1.0.0.jar
 
 ## 安装
 
-把构建出的 jar 放入对应实例的 `mods` 文件夹。
+下载或构建 `zz_tacz_worldgen_compat-1.0.0.jar`，然后放入对应实例的 `mods` 文件夹。
+
+当前预构建文件位于：
+
+```text
+release/zz_tacz_worldgen_compat-1.0.0.jar
+```
 
 ## 回退
 
