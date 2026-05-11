@@ -1,0 +1,11 @@
+{
+  "type": "farmersdelight:add_features_by_filter",
+  "allowed_biomes": "#c:is_wet/overworld",
+  "denied_biomes": [
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    "minecraft:deep_dark"
+  ],
+  "features": "farmersdelight:patch_wild_rice",
+  "step": "vegetal_decoration"
+}

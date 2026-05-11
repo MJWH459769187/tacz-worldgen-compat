@@ -1,0 +1,11 @@
+{
+  "type": "ubesdelight:add_features_by_filter",
+  "allowed_biomes": "#c:is_jungle",
+  "denied_biomes": [
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    "minecraft:deep_dark"
+  ],
+  "features": "ubesdelight:patch_wild_garlic",
+  "step": "vegetal_decoration"
+}

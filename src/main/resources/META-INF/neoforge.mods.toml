@@ -1,0 +1,46 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "zz_tacz_worldgen_compat"
+version = "1.0.0"
+displayName = "TaCZ Worldgen Compat"
+description = '''
+Compatibility data overrides for TaCZ with AoA3, Farmer's Delight, and Ube's Delight on NeoForge 1.21.1.
+'''
+
+[[dependencies.zz_tacz_worldgen_compat]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.zz_tacz_worldgen_compat]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.zz_tacz_worldgen_compat]]
+modId = "aoa3"
+type = "optional"
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.zz_tacz_worldgen_compat]]
+modId = "farmersdelight"
+type = "optional"
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.zz_tacz_worldgen_compat]]
+modId = "ubesdelight"
+type = "optional"
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"

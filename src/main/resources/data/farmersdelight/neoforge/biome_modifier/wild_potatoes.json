@@ -1,0 +1,13 @@
+{
+  "type": "farmersdelight:add_features_by_filter",
+  "allowed_biomes": "#minecraft:is_overworld",
+  "denied_biomes": [
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    "minecraft:deep_dark"
+  ],
+  "features": "farmersdelight:patch_wild_potatoes",
+  "max_temperature": 0.3,
+  "min_temperature": 0.1,
+  "step": "vegetal_decoration"
+}
